@@ -10,10 +10,9 @@ Live here:
 4. Continue matching pairs until all cards are face-up.
 
 ## Features
-- **Customizable Grid:** Choose the grid size for different difficulty levels.
-- **Timer:** Track how quickly you can complete the game.
-- **Attempts Counter:** Monitor the number of attempts used.
-- **Themes:** Customize the card designs to suit your style.
+- Basic Grid: A fixed 4x3 grid of cards for straightforward gameplay.
+- Counters: Count the numbers of flips and matches.
+- Reset Option: Restart the game at any time.
 
 ## Technologies Used
 - HTML
