@@ -13,6 +13,7 @@ Live here:
 - Basic Grid: A fixed 4x3 grid of cards for straightforward gameplay.
 - Counters: Count the numbers of flips and matches.
 - Reset Option: Restart the game at any time.
+- Themes: Choose the theme of the game. **(WIP)**
 
 ## Technologies Used
 - HTML
