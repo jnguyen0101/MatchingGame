@@ -1,11 +1,10 @@
 // variables storing audio objects to make the various sounds
 let clickAudio = new Audio("audio/click.wav");
-let winAudio = new Audio("audio/win.wav");
 let matchAudios = [
     new Audio("audio/wi-wi-wi.mp3"),
     new Audio("audio/oo-ee-aa.mp3"),
     new Audio("audio/boom.mp3"),
-    new Audio("audio/pop.mp3"),
+    new Audio("audio/scream.mp3"),
     new Audio("audio/huh.mp3"),
     new Audio("audio/awo.mp3")
 ];
