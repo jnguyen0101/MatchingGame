@@ -3,9 +3,9 @@ let clickAudio = new Audio("audio/click.wav");
 let winAudio = new Audio("audio/win.wav");
 let matchAudios = [
     new Audio("audio/happy.mp3"),
-    new Audio("audio/typing.mp3"),
+    new Audio("audio/oo-ee-aa.mp3"),
     new Audio("audio/boom.mp3"),
-    new Audio("audio/kiss.mp3"),
+    new Audio("audio/pop.mp3"),
     new Audio("audio/huh.mp3"),
     new Audio("audio/vibing.mp3")
 ];
