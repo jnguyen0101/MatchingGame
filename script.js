@@ -119,11 +119,33 @@ function onCardFlipped(newlyFlippedCard) {
 
     // cards match
     incrementCounter("matches", document.getElementById("match-count"));
+    switch (newlyFlippedCard.imageClass) {
+        case "image-1":
+            matchAudios[0].play();
+            break;
+        case "image-2":
+            matchAudios[1].play();
+            break;
+        case "image-3":
+            matchAudios[2].play();
+            break;
+        case "image-4":
+            matchAudios[3].play();
+            break;
+        case "image-5":
+            matchAudios[4].play();
+            break;
+        case "image-6":
+            matchAudios[5].play();
+            break;
+    }
+    lastCardFlipped.element.classList.add("glow");
+    lastCardFlipped.element.classList.add("border-glow");
+    newlyFlippedCard.element.classList.add("glow");
+    newlyFlippedCard.element.classList.add("border-glow");
 
     if (counters["matches"] === 6) {
-        winAudio.play();
-    } else {
-        matchAudio.play();
+        openModal();
     }
 
     lastCardFlipped = null;

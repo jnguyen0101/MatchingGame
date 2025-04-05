@@ -11,6 +11,7 @@ body {
     font-family: "Kanit", sans-serif;
     text-shadow: 2px 2px 3px rgb(177, 177, 177);
     min-height: 100vh;
+    user-select: none;
 }
 
 h1 {
@@ -80,32 +81,32 @@ h1 {
 }
 
 .image-1 .card-up {
-    background-image: url(img/image-1.png), linear-gradient(#72dbf4, #72dbf4);
+    background-image: url(img/image-1.gif), linear-gradient(#72dbf4, #72dbf4);
 }
 
 .image-2 .card-up {
-    background-image: url(img/image-2.png), linear-gradient(#72dbf4, #72dbf4);
+    background-image: url(img/image-2.gif), linear-gradient(#72dbf4, #72dbf4);
 }
 
 .image-3 .card-up {
-    background-image: url(img/image-3.png), linear-gradient(#72dbf4, #72dbf4);
+    background-image: url(img/image-3.gif), linear-gradient(#72dbf4, #72dbf4);
 }
 
 .image-4 .card-up {
-    background-image: url(img/image-4.png), linear-gradient(#72dbf4, #72dbf4);
+    background-image: url(img/image-4.gif), linear-gradient(#72dbf4, #72dbf4);
 }
 
 .image-5 .card-up {
-    background-image: url(img/image-5.png), linear-gradient(#72dbf4, #72dbf4);
+    background-image: url(img/image-5.gif), linear-gradient(#72dbf4, #72dbf4);
 }
 
 .image-6 .card-up {
-    background-image: url(img/image-6.png), linear-gradient(#72dbf4, #72dbf4);
+    background-image: url(img/image-6.gif), linear-gradient(#72dbf4, #72dbf4);
 }
 
 .glow {
-    border: 1px solid transparent;
-    transition: border 0.1s linear, box-shadow 0.1s linear;
+    border: 2px solid transparent;
+    transition: border 2s linear, box-shadow 2s linear;
 }
 
 @keyframes border-glow {
@@ -115,18 +116,13 @@ h1 {
     }
 
     80% {
-        border-color: blue;
-        box-shadow: 0 0 10px blue;
-    }
-
-    to {
-        border: 2px solid transparent;
-        box-shadow: none;
+        border-color: #5e5447;
+        box-shadow: 0 0 10px #5e5447;
     }
 }
 
 .border-glow {
-    animation: border-glow 1s;
+    animation: border-glow 2s;
 }
 
 .btn-container {
@@ -146,6 +142,55 @@ h1 {
 }
 
 .reset-btn:hover {
+    cursor: pointer;
+    background-color: #534a3d;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;
+
+    animation: fadeInUp 0.4s ease forwards;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+@keyframes fadeInUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.new-game-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5e5447;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.new-game-btn:hover {
     cursor: pointer;
     background-color: #534a3d;
 }
