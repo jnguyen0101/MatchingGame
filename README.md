@@ -1,7 +1,7 @@
 # Matching Game
 A simple and fun memory game where players match pairs of cards. It challenges memory and concentration while providing an engaging experience for all ages.
 
-**Live here**:
+**Live here**: https://jnguyen0101.github.io/MatchingGame/
 
 ## How to Play
 1. Click or tap on two cards to flip them over.
