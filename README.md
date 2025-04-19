@@ -18,3 +18,7 @@ A simple and fun memory game where players match pairs of cards. It challenges m
 - HTML
 - CSS
 - JavaScript
+
+## WIP
+- larger pool of cats
+- modal ui update
