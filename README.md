@@ -22,3 +22,5 @@ A simple and fun memory game where players match pairs of cards. It challenges m
 ## WIP
 - larger pool of cats
 - modal ui update
+- timer
+- highscore
