@@ -20,7 +20,6 @@ A simple and fun memory game where players match pairs of cards. It challenges m
 4. Continue matching pairs until all cards are face-up.
 
 ## WIP
-- larger pool of cats
 - modal ui update
 - timer
 - highscore
