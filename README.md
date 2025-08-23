@@ -18,8 +18,3 @@ A simple and fun memory game where players match pairs of cards. It challenges m
 2. If the two cards match, they remain face-up.
 3. If the two cards don't match, they flip back after a short delay.
 4. Continue matching pairs until all cards are face-up.
-
-## WIP
-- modal ui update
-- timer
-- highscore
