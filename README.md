@@ -1,7 +1,7 @@
 # Matching Game
 A simple and fun memory game where players match pairs of cards. It challenges memory and concentration while providing an engaging experience for all ages.
 
-**Live here**: https://jnguyen0101.github.io/MatchingGame/
+[**Check it out here.**](https://jnguyen0101.github.io/MatchingGame/)
 
 ## Features
 - Basic Grid: A fixed 4x3 grid of cards for straightforward gameplay.
